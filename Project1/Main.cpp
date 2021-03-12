@@ -8,4 +8,5 @@ int main()
 {
 	std::thread t(hello);
 	t.join();
+	std::cin.get();
 }
